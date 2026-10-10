@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.vite/
+
+# Environment variables — NEVER commit secrets
+.env
+.env.local
+.env.*.local
+
+# Leaderboard data (runtime, not source)
+.leaderboard-data/
+
+# Foundry / Solidity build artifacts
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+lib/
+
+# Runtime capture files
+console.jsonl
+traces.jsonl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+/tmp/
+
+# Bun
+.bun-version
+bun.lockb
